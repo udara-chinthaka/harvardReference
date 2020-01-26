@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" href="fvc.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Report</title>
+  </head>
+  <body class="bgContent">
+    <div class="refContent">
+      <div class="fieldSet">
+        <p class="heading">Report</p>
+        <input
+          type="text"
+          name="author"
+          id=""
+          class="field author"
+          placeholder="Author / Editor *"
+        />
+        <input
+          type="number"
+          name="year"
+          id=""
+          class="field year"
+          placeholder="Year Of publication"
+        />
+        <input
+          type="text"
+          name="title"
+          id=""
+          class="field title"
+          placeholder="Title Of Report *"
+        />
+        <input
+          type="text"
+          name="organisation"
+          id=""
+          class="field organisation"
+          placeholder="Organisation *"
+        /><br />
+        <input
+          type="text"
+          name="reportNumber"
+          id=""
+          class="field reportNumber"
+          placeholder="Report Number"
+        />
+        <br />
+
+        <textarea
+          rows="3"
+          id="ref"
+          class="reference"
+          placeholder="Your Reference"
+          value=""
+        ></textarea>
+
+        <div class="buttonSet">
+          <button class="button get">GET</button>
+          <button class="button copy">COPY</button>
+          <button class="button new">NEW</button>
+          <button class="button btn sample"></button><br /><br />
+          <label class="example">
+            Leatherwood, S. (2001)
+            <i>
+              Whales, dolphins, and porpoises of the western North Atlantic.
+            </i>
+            U.S. Dept. of Commerce. Report number: 63.
+          </label>
+        </div>
+      </div>
+    </div>
+    <script src="copy.js"></script>
+    <script src="report.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

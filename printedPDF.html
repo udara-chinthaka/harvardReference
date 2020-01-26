@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" href="fvc.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Printed PDF</title>
+  </head>
+  <body class="bgContent">
+    <div class="refContent">
+      <div class="fieldSet">
+        <p class="heading">Printed Journal Article / PDF</p>
+        <input
+          type="text"
+          name="author"
+          id=""
+          class="field author"
+          placeholder="Author *"
+        />
+        <input
+          type="number"
+          name="year"
+          id=""
+          class="field year"
+          placeholder="Year Of Publication"
+        />
+        <input
+          type="text"
+          name="titleJournalArticle"
+          id=""
+          class="field titleJournalArticle"
+          placeholder="Title Of Article / PDF *"
+        />
+        <input
+          style="font-style: italic;"
+          type="text"
+          name="title"
+          id=""
+          class="field title"
+          placeholder="Title Of Journal *"
+        /><br />
+        <input
+          type="text"
+          name="volumNumber"
+          id=""
+          class="field volumNumber"
+          placeholder="Volume Number"
+        />
+        <input
+          type="text"
+          name="issueNumber"
+          id=""
+          class="field issueNumber"
+          placeholder="Issue Number"
+        />
+        <input
+          type="text"
+          name="pageNumbers"
+          id=""
+          class="field pageNumbers"
+          placeholder="Article Page Numbers *"
+        />
+
+        <br />
+
+        <textarea rows="3" class="reference" id="ref"> </textarea>
+
+        <div class="buttonSet">
+          <button class="button get">GET</button>
+          <button class="button copy">COPY</button>
+          <button class="button new">NEW</button>
+          <button class="button btn sample"></button><br /><br />
+          <label class="example">
+            Chhibber, P. K. & Majumdar, S. K. (1999) Foreign ownership and
+            profitability: Property rights, control, and the performance of
+            firms in Indian industry.<i> Journal of Law & Economics,</i> 42 (1),
+            209-238.
+          </label>
+        </div>
+      </div>
+    </div>
+    <script src="copy.js"></script>
+    <script src="printedPDF.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" href="fvc.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Printed Book</title>
+  </head>
+  <body class="bgContent">
+    <div class="refContent">
+      <div class="fieldSet">
+        <p class="heading">Printed Book</p>
+        <input
+          type="text"
+          name="author"
+          id=""
+          class="field author"
+          placeholder="Author / Editor *"
+        />
+        <input
+          type="number"
+          name="year"
+          id=""
+          class="field year"
+          placeholder="Year Of Publication"
+        />
+        <input
+          type="text"
+          name="title"
+          id=""
+          class="field title"
+          placeholder="Title *"
+        />
+        <input
+          type="text"
+          name="series"
+          id=""
+          class="field series"
+          placeholder="Series Title And Number"
+        /><br />
+        <input
+          type="text"
+          name="edition"
+          id=""
+          class="field edition"
+          placeholder="Edition *"
+        />
+        <input
+          type="text"
+          name="placeOfPublication"
+          id=""
+          class="field placeOfPublication"
+          placeholder="Place Of Publication *"
+        />
+        <input
+          type="text"
+          name="publisher"
+          id=""
+          class="field publisher"
+          placeholder="Publisher *"
+        />
+        <br />
+
+        <textarea rows="3" id="ref" class="reference"> </textarea>
+
+        <div class="buttonSet">
+          <button class="button get">GET</button>
+          <button class="button copy">COPY</button>
+          <button class="button new">NEW</button>
+          <button class="button btn sample"></button><br /><br />
+          <label class="example">
+            Menzies, B. & Matthews, M. (2001)
+            <i>A Short Course in Soil and Rock Slope Engineering. </i>London,
+            Thomas Telford Publishing.
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <script src="copy.js"></script>
+    <script src="printedBook.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" href="fvc.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lecture</title>
+  </head>
+  <body class="bgContent">
+    <div class="refContent">
+      <div class="fieldSet">
+        <p class="heading">Lecture / Presentation</p>
+        <input
+          type="text"
+          name="lecturer"
+          id=""
+          class="field lecturer"
+          placeholder="Lecturer name *"
+        />
+        <input
+          type="number"
+          name="year"
+          id=""
+          class="field year"
+          placeholder="Year Of Lecture"
+        />
+        <input
+          type="text"
+          name="title"
+          id=""
+          class="field title"
+          placeholder="Title Of Lecture *"
+        />
+        <input
+          style="font-size: 12px;"
+          type="text"
+          name="module"
+          id=""
+          class="field module"
+          placeholder="Title Of Module/  Course *"
+        /><br />
+        <input
+          style="font-size: 11px;"
+          type="text"
+          name="institution"
+          id=""
+          class="field institution"
+          placeholder="Name Of Institution Or Location *"
+        />
+        <input
+          type="text"
+          name="date"
+          id=""
+          class="field date"
+          placeholder="Date Of Lecture / Presentation"
+        />
+
+        <br />
+
+        <textarea rows="3" id="ref" class="reference"> </textarea>
+
+        <div class="buttonSet">
+          <button class="button get">GET</button>
+          <button class="button copy">COPY</button>
+          <button class="button new">NEW</button>
+          <button class="button btn sample"></button><br /><br />
+          <label class="example">
+            Wagner, G. (2006)<i>
+              Structural and functional studies of protein interactions in gene
+              expression.</i
+            >
+            [Lecture] Imperial College London, 12th December.
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <script src="lecture.js"></script>
+    <script src="copy.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

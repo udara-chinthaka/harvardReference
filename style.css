@@ -1,0 +1,157 @@
+/*  MAIN MENU   */
+.topic {
+  font-family: Lato;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: rgb(226, 245, 55);
+  font-weight: bold;
+}
+.bgContent {
+  background-image: url(book1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.content {
+  top: 0;
+  right: 0;
+  /* width: 100%; */
+  /* height: 45em; */
+  height: auto;
+  background: rgba(2, 78, 92, 0.5);
+  padding: 1.5rem;
+  text-align: center;
+}
+.deco {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.deco:hover {
+  color: white;
+  font-weight: bold;
+}
+.link {
+  font-size: 25px;
+  font-family: Lato;
+  color: azure;
+  margin-top: 25px;
+  padding: 3px;
+}
+.author {
+  text-align: left;
+  font-family: Lato;
+}
+
+/* PRINTED BOOK AND REFERENCE PAGES  */
+.refContent {
+  top: 0;
+  right: 0;
+  /* width: 100%; */
+  height: 46rem;
+  background: rgba(2, 78, 92, 0.5);
+  padding: 1.5rem;
+}
+
+.fieldSet {
+  border: white solid 1px;
+  padding: 3px;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.heading {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: Lato;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.field {
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 3px;
+  font-family: Lato;
+  font-size: 14px;
+  width: 150px;
+  outline: none;
+  color: green;
+}
+
+.reference {
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 3px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  outline: none;
+  width: 300px;
+}
+
+.button {
+  outline: none;
+  width: 80px;
+  height: 30px;
+  font-family: Lato;
+  font-size: 14px;
+  margin: 15px 10px 0px 10px;
+  cursor: pointer;
+  border: crimson 1px solid;
+  color: crimson;
+  font-weight: bold;
+}
+
+.field:focus {
+  border: 2px solid green !important;
+}
+.reference:focus {
+  border: 2px solid green !important;
+}
+
+.button:hover {
+  color: blueviolet;
+  border: blueviolet 1px solid;
+  font-weight: bold;
+}
+
+.cont {
+  background-color: dimgray;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+.inner {
+  margin: 20px;
+  background-color: crimson;
+  font-family: Lato;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+}
+
+.help {
+  padding: 5px;
+  font-size: 18 px;
+}
+
+.example {
+  background-color: white;
+  color: crimson;
+  padding: 5px;
+  border-radius: 6px;
+  display: none;
+}
+.vis {
+  display: block;
+}
+
+.required::after {
+  content: "HIDE";
+  color: crimson;
+}
+.sample::after {
+  content: "SAMPLE";
+  color: crimson;
+}
