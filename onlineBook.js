@@ -33,6 +33,7 @@ var UIController = (function() {
   };
 })();
 
+// controller function
 var controller = (function() {
   // store input stirng
   var DOM = UIController.getDOMstring();
